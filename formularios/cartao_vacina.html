@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de vacinação</h1>
+    <form action="">
+        <fieldset> 
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+
+            <label for="data_atendimento">Data de atendimento:</label>
+            <input type="date" id="data_atendimento">
+            <br>
+
+            <label for="data_nascimento">Data de nascimento:</label>
+            <input type="date" id="data_nascimento">
+            
+            <label for="tipo_sangue">Tipo Sanguíneo:</label>
+            <input type="text" id="tipo_sangue">
+            <br>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" >
+            
+            <label for="fator_rh">Fator RH</label>
+            <input type="text" id="fator_rh">
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+            
+            <label for="vacinas_aplicadas">Vacinas Aplicadas</label>
+            <input type="text" id="vacinas_aplicadas">
+            <br>
+
+            <label for="nome_rua">Rua:</label>
+            <input type="text" id="nome_rua">
+            
+            <label for="comorbidade">Comorbidade</label>
+            <input type="text" id="comorbidade">
+            <br>
+
+            <label for="numero_rua">Número:</label>
+            <input type="number" id="numero_rua">
+            
+            <label for="contato_emergencia">Contato de emergência</label>
+            <input type="text" id="contato_emergencia">
+            <br>
+
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro">
+
+        <!--Incluir as cores Cores de prioridade
+Vermelha – Emergência: atendimento imediato;
+Laranja – Muito urgente: espera de até 10 minutos;
+Amarelo – Urgente: espera de até 1 hora;
+Verde – Pouco urgente: espera de até 2 horas;
+Azul – Não urgente: espera de até 4 horas-->
+            <label for="prioridade_atendimento">Prioridade de atendimento:</label>
+            <input type="color" id="prioridade_atendimento" value="#ff0000">
+            <br>
+
+            <label for="cep_rua">CEP:</label>
+            <input type="number" id="cep_rua">
+            
+            <!--Velocidade de atendimento :
+            Lenta Aceitável Rápida-->
+
+            <label for="velocidade_atendimento">Velocidade Atendimento</label>
+            <input type="range" id="velocidade_atendimento" min="1" max="3">
+            </br>
+            
+            <label for="estado_moradia">Estado:</label>
+            <input type="text" id="estado_moradia">
+            
+            <label for="observacoes">Observações:</label>
+            <textarea id="cidade_moradia" cols="30" rows="1"></textarea>
+            </br>
+        
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>

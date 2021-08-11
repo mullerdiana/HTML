@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine SoulCode</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: arial, helvetica, sans-serif;
+            font-size: 12px;
+        }
+        
+        .menu {
+            list-style: none;
+            border: 1px solid #c0c0c0;
+            float: left;
+        }
+        
+        .menu li {
+            position: relative;
+            float: left;
+            border-right: 1px solid #c0c0c0;
+        }
+        
+        .menu li a {
+            color: rgb(253, 253, 253);
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+        }
+        
+        .menu li a:hover {
+            background: rgb(243, 235, 122);
+            color: rgb(255, 255, 255);
+            -moz-box-shadow: 0 3px 10px 0 rgb(0, 0, 0);
+            -webkit-box-shadow: 0 3px 10px 0 rgb(19, 19, 19);
+            text-shadow: 0px 0px 5px rgb(14, 14, 14);
+        }
+        
+        .menu li ul {
+            justify-content: center;
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background-color: rgb(151, 153, 60);
+            display: none;
+        }
+        
+        .menu li:hover ul,
+        .menu li.over ul {
+            display: block;
+        }
+        
+        .menu li ul li {
+            border: 1px solid #c6e900;
+            display: block;
+            width: 150px;
+        }
+        
+        footer {
+            color: black;
+            text-align: center;
+            background-color: #f8aa00;
+        }
+        
+        table {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+
+
+<body text="white">
+    <header>
+        <nav align="right"><button>Login</button> <a href="mensagens.html"><button>Cadastre-se</button></a></nav>
+        <a href="cine.html"><img src="logo-dark.png" alt="logo-soulcode" width="300px"> </a>
+        <hr>
+    </header>
+
+    <nav>
+
+        <ul class="menu">
+            <li><a href="cine.html">Página Inicial</a>
+            </li>
+            <li>
+                <a href="">Categorias</a>
+                <ul>
+                    <li><a href="filme.html">Filmes</a></li>
+                    <li><a href="serie.html">Séries</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Gênero</a>
+                <ul>
+                    <li><a href="acao.html">Ação</a></li>
+                    <li><a href="ficcao.html">Ficção</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="filme_serie.html">Todos</a>
+            </li>
+        </ul>
+
+        <input type="search" placeholder="Pesquisar">
+        <br><br>
+    </nav>
+    <hr>
+
+    <main>
+        <section>
+            <h1 align="center">Passo à passo para ter sua melhor experiência em um cinema</h1><br>
+            <table height="400px">
+                <tr width="200px">
+                    <td width="400px">
+                        <div style="margin-bottom: 60px;">
+                            <h2>Primeiro Passo:</h2>
+                            <p>Cadastre-se clicando <a href="faleconosco.html"> aqui </a></p>
+                        </div>
+                        <p>
+                            <a href="mensagens.html"><img src="computador.png" alt="cadastro"></a>
+                        </p>
+                    </td>
+
+                    <td width="400px">
+                        <div style="margin-bottom: 50px;">
+                            <h2>Segundo passo:</h2>
+                            <p>Escolha um bom filme do nosso<a href="filmes_series.html"> catálogo:</p></a>
+                        </div>
+
+                        <p>
+                            <a href="filme_serie.html"><img src="escolha.png" alt="escolha seu filme" width="300px"></a>
+                        </p>
+                    </td>
+
+                    <td width="400px">
+                        <div style="margin-bottom: 60px;">
+                            <h2> Terceiro passo </h2>
+                            <p> Compre seu Ingresso </p>
+                        </div>
+
+                        <p>
+                            <a href=""><img src="ticket.png" alt="ticket" width="300px"></a>
+                        </p>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img src="facebook.png" alt="facebook" width="60px" height="60px"></a>
+        <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="instagram.png" alt="instagram" width="60px" height="60px"></a>
+        <a href="faleconosco.html"> <img src="fale.png" alt="link para a página fale conosco" height="55"></a>
+        <p> Copyright &copy;2021 <br> Autores: </br> Diana Müller | Diego Neres | João Valdevino | Juan Pablo | Yago Mathias </p>
+    </footer>
+
+    <table>
+
+
+    </table>
+</body>
+
+</html>

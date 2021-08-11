@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <style>
+        body {
+            background-color: black;
+            font-family: arial, helvetica, sans-serif;
+            font-size: 12px;
+            color: #ffffffde;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu {
+            list-style: none;
+            border: 1px solid #c0c0c0;
+            float: inherit;
+        }
+        
+        .menu li {
+            position: relative;
+            float: left;
+            border-right: 1px solid #c0c0c0;
+        }
+        
+        .menu li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+        }
+        
+        .menu li a:hover {
+            background: rgba(199, 186, 10, 0.911);
+            color: #fff;
+            -moz-box-shadow: 0 3px 10px 0 #ccc;
+            -webkit-box-shadow: 0 3px 10px 0 #ccc;
+            text-shadow: 0px 0px 5px #fff;
+        }
+        
+        .menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background-color: rgb(151, 153, 60);
+            display: none;
+        }
+        
+        .menu li:hover ul,
+        .menu li.over ul {
+            display: block;
+        }
+        
+        .menu li ul li {
+            border: 1px solid #c6e900;
+            display: block;
+            width: 150px;
+        }
+        
+        table {
+            background: #4f4f4f;
+        }
+        
+        footer {
+            color: black;
+            margin-top: 100px;
+            text-decoration-color: black;
+            text-align: center;
+            background-color: #F7C101;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+        
+        h2 {
+            background: black;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+
+    <header>
+        <nav align="right"><button>Login</button> <a href="mensagens.html"><button>Cadastre-se</button></a></nav>
+        <a href="cine.html"><img src="logo-dark.png" alt="logo-soulcode" width="300px"></a>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="cine.html">Página Inicial</a>
+            </li>
+            <li>
+                <a href="">Categorias</a>
+                <ul>
+                    <li><a href="filme.html">Filmes</a></li>
+                    <li><a href="serie.html">Séries</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Gênero</a>
+                <ul>
+                    <li><a href="acao.html">Ação</a></li>
+                    <li><a href="ficcao.html">Ficção</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="filme_serie.html">Todos</a>
+            </li>
+        </ul>
+        <input type="search" placeholder="Pesquisar">
+        <br><br>
+        <hr>
+
+
+    </nav>
+
+
+    <main>
+
+        <table style="margin: 0 auto;">
+            <tr>
+                <td align="center" colspan="2">
+                    <h2> Faça o seu cadastro </h2>
+                </td>
+            </tr>
+            <form action="">
+
+                <th colspan="2">
+                    <h3> Contato para notificações sobre novidades do cine SoulCode</h3>
+                </th>
+                <tr>
+                    <td colspan="2" height="30"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nome"> Nome:</label>
+                        <input type="text" id="nome" placeholder="Nome e Sobrenome" required>
+                    </td>
+                    <td>
+                        <label for="data"> Data de nascimento:</label>
+                        <input type="date" id="data">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email"> E-mail: </label>
+                        <input type="email" id="email" placeholder="Seu endereço de e-mail" required>
+                    </td>
+                    <br>
+                    <td>
+                        <label for="telefone"> Telefone: </label>
+                        <input type="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx)" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" height="30"></td>
+                </tr>
+
+                <tr>
+
+                    <td colspan="2">
+                        <h3>Sobre quais categorias quer se manter atualizado? </h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td td colspan="2">
+                        <label for="romance"> Romance </label>
+                        <input type="checkbox" name="categoria_favorita" id="romance" value="romance">
+                        </br>
+
+                        <label for="acao"> Ação </label>
+                        <input type="checkbox" name="categoria_favorita" id="acao" value="ação">
+                        </br>
+
+                        <label for="ficcao"> Ficção </label>
+                        <input type="checkbox" name="categoria_favorita" id="ficcao" value="ficção">
+                        </br>
+
+                        <label for="animacao"> Animação </label>
+                        <input type="checkbox" name="categoria_favorita" id="animacao" value="animação">
+                        </br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="4">
+                        <button type="submit"> Enviar </button>
+
+                        <button type="reset"> Limpar texto </button>
+                    </td>
+                </tr>
+            </form>
+
+        </table>
+    </main>
+
+    <footer>
+        <hr>
+        <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img src="facebook.png" alt="facebook" width="60px" height="60px"></a>
+        <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="instagram.png" alt="instagram" width="60px" height="60px"></a>
+        <a href="faleconosco.html"> <img src="fale.png" alt="link para a página fale conosco" height="55"></a>
+        <p> Copyright &copy;2021 <br> Autores: </br> Diana Müller | Diego Neres | João Valdevino | Juan Pablo | Yago Mathias </p>
+    </footer>
+
+
+</body>
+
+</html>

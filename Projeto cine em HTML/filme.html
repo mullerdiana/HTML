@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cine SoulCode - Ficção</title>
+
+    <style>
+        body {
+            background-color: black;
+            font-family: arial, helvetica, sans-serif;
+            font-size: 12px;
+            color: #ffffffde;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu {
+            list-style: none;
+            border: 1px solid #c0c0c0;
+            float: inherit;
+        }
+        
+        .menu li {
+            position: relative;
+            float: left;
+            border-right: 1px solid #c0c0c0;
+        }
+        
+        .menu li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+        }
+        
+        .menu li a:hover {
+            background: rgba(199, 186, 10, 0.911);
+            color: #fff;
+            -moz-box-shadow: 0 3px 10px 0 #ccc;
+            -webkit-box-shadow: 0 3px 10px 0 #ccc;
+            text-shadow: 0px 0px 5px #fff;
+        }
+        
+        .menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background-color: rgb(151, 153, 60);
+            display: none;
+        }
+        
+        .menu li:hover ul,
+        .menu li.over ul {
+            display: block;
+        }
+        
+        .menu li ul li {
+            border: 1px solid #c6e900;
+            display: block;
+            width: 150px;
+        }
+        
+        table {
+            background: #4f4f4f;
+        }
+        
+        footer {
+            color: black;
+            text-decoration-color: black;
+            text-align: center;
+            background-color: #F7C101;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <nav align="right"><button>Login</button> <a href="mensagens.html"><button>Cadastre-se</button></a></nav>
+        <a href="cine.html"><img src="logo-dark.png" alt="logo-soulcode" width="300px"></a>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="cine.html">Página Inicial</a>
+            </li>
+            <li>
+                <a href="">Categorias</a>
+                <ul>
+                    <li><a href="filme.html">Filmes</a></li>
+                    <li><a href="serie.html">Séries</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Gênero</a>
+                <ul>
+                    <li><a href="acao.html">Ação</a></li>
+                    <li><a href="ficcao.html">Ficção</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="filme_serie.html">Todos</a>
+            </li>
+
+        </ul>
+    </nav>
+    <input type="search" placeholder="Pesquisar">
+
+    <main color="white">
+        <section>
+            <table width="100%">
+                <tr align="center">
+                    <th bgcolor="#f8c100" colspan="4">
+                        <h1 color="black">
+                            Filmes:
+                        </h1>
+                        <tr>
+                            <td>
+                                <img src="alien.jpg" alt="banner filme allien" widht="250" height="400" />
+                            </td>
+
+                            <td>
+                                <h2> <b>Alien - O oitavo passageiro</b> </h2>
+                                </br>
+                                <p> Uma nave espacial, ao retornar para Terra, recebe estranhos sinais vindos de um asteróide. Ao investigarem o local, um dos tripulantes é atacado por um estranho ser. O que parecia ser um ataque isolado se transforma em
+                                    um terror constante, pois o tripulante atacado levou para dentro da nave o embrião de um alienígena, que não para de crescer e tem como meta matar toda a tripulação.
+                                </p>
+                                <a href="https://www.youtube.com/watch?v=LjLamj-b0I8&ab_channel=HitmonTom" target="_blank"><button>Assista ao trailer aqui</button></a>
+
+                            </td>
+
+                            <td>
+                                <img src="bladerunner.jpg" alt="banner filme bladerunner" widht="210" height="400" />
+                            </td>
+
+                            <td>
+                                <h2> <b> Blade Runner 2049 </b> </h2>
+                                </br>
+                                <p> Não recomendado para menores de 14 anos Em Blade Runner 2049, após os problemas enfrentados com os Nexus 8, uma nova espécie de replicantes é desenvolvida, de forma que seja mais obediente aos humanos. Um deles é K (Ryan
+                                    Gosling), um blade runner que caça replicantes foragidos para a polícia de Los Angeles. Após encontrar Sapper Morton (Dave Bautista), K descobre um fascinante segredo: a replicante Rachel (Sean Young) teve um filho,
+                                    mantido em sigilo até então. A possibilidade de que replicantes se reproduzam pode desencadear uma guerra deles com os humanos, o que faz com que a tenente Joshi (Robin Wright), chefe de K, o envie para encontrar e
+                                    eliminar a criança.</p>
+
+                                <a href="https://www.youtube.com/watch?v=gCcx85zbxz4&ab_channel=WarnerBros.Pictures" target="_blank"><button> Assista ao trailer aqui</button></a>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="chegada.jpg" alt="banner do filme a chegada" widht="250" height="380" />
+                            </td>
+
+                            <td>
+                                <h2><b> A Chegada </b></h2>
+                                </br>
+                                <p> Quando seres interplanetários deixam marcas na Terra, a Dra. Louise Banks (Amy Adams), uma linguista especialista no assunto, é procurada por militares para traduzir os sinais e desvendar se os alienígenas representam uma
+                                    ameaça ou não. No entanto, a resposta para todas as perguntas e mistérios pode ameaçar a vida de Louise e a existência de toda a humanidade.</p>
+                                <a href="https://www.youtube.com/watch?v=rNciXGzYZms&ab_channel=SonyPicturesBrasil" target="_blank"><button> Assista ao trailer aqui</button></a>
+
+
+                            </td>
+                            <td>
+                                <img src="matrix.jpg" alt="banner do filme matrix" widht="260" height="380" />
+                            </td>
+
+                            <td>
+                                <h2><b> Matrix </b></h2>
+                                </br>
+                                <p> Em um futuro próximo, Thomas Anderson (Keanu Reeves), um jovem programador de computador que mora em um cubículo escuro, é atormentado por estranhos pesadelos nos quais encontra-se conectado por cabos e contra sua vontade,
+                                    em um imenso sistema de computadores do futuro. Em todas essas ocasiões, acorda gritando no exato momento em que os eletrodos estão para penetrar em seu cérebro. À medida que o sonho se repete, Anderson começa a ter
+                                    dúvidas sobre a realidade. Por meio do encontro com os misteriosos Morpheus (Laurence Fishburne) e Trinity (Carrie-Anne Moss), Thomas descobre que é, assim como outras pessoas, vítima do Matrix, um sistema inteligente
+                                    e artificial que manipula a mente das pessoas, criando a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia. Morpheus, entretanto, está convencido de que Thomas é Neo, o aguardado
+                                    messias capaz de enfrentar o Matrix e conduzir as pessoas de volta à realidade e à liberdade.
+                                </p>
+                                <a href="https://www.youtube.com/watch?v=2KnZac176Hs&ab_channel=ArquivodeTrailers"> <button>Assista ao trailer aqui</button></a>
+                            </td>
+
+
+                        </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img src="facebook.png" alt="facebook" width="60px" height="60px"></a>
+        <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="instagram.png" alt="instagram" width="60px" height="60px"></a>
+        <a href="faleconosco.html"> <img src="fale.png" alt="link para a página fale conosco" height="55"></a>
+        <p> Copyright &copy;2021 <br> Autores: </br> Diana Müller | Diego Neres | João Valdevino | Juan Pablo | Yago Mathias </p>
+    </footer>
+</body>
+
+</html>

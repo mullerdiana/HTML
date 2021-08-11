@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+    <style>
+
+
+        .horizontal {
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+        }
+
+        .hori
+
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 150px;
+        }
+
+        ul li {
+            position: relative;
+        }
+
+        li ul {
+            position: absolute;
+            right: 149px;
+            top: 0;
+            display: none;
+        }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+            color: #E2144A;
+            background: #fff;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        li:hover ul {
+            display: block;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            background: #3cb4c4;
+        }
+
+        .menu li {
+            position: relative;
+            float: left;
+            border-right: 1px solid #c0c0c0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table border="black" width="100%">
+        <tr>
+            <td colspan="2" style=color:#3cb4c4> <img src="Logo.png"> <b>NOTÍCIAS DA BCW5</b></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center" bgcolor="gold" height="80">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+
+        <tr height="240">
+            <td><a href="https://cultura.uol.com.br/noticias/30566_perfil-de-bolsonaro-publica-foto-no-hospital-e-relaciona-internacao-a-facada.html"
+                    target="_blank"><img src="bozo.jpeg"></a>
+                <a href="https://g1.globo.com/mundo/noticia/2021/07/20/censo-anual-dos-cisnes-da-rainha-elizabeth-ii-acontece-na-inglaterra.ghtml"
+                    target="_blank"><img src="censo_rainha.jpeg"></a>
+                <a href="https://soulcodeacademy.org/" target="_blank"><b>SoulCode abre nova turma de Engenheiro de
+                        Dados com Python + Google Cloud</b></a>
+            </td>
+            <td bgcolor=#3cb4c4>
+                <ul id="nav">
+                    <li><a href="#">CURSOS</a>
+                        <ul>
+                            <li><a href="https://soulcodeacademy.org/curso-frontend-e-mobile.html"
+                                    target="_blank">C++</a></li>
+                            <li><a href="https://soulcodeacademy.org/curso-frontend-e-mobile.html"
+                                    target="_blank">HTML</a></li>
+                            <li><a href="https://soulcodeacademy.org/curso-frontend-e-mobile.html"
+                                    target="_blank">CSS</a></li>
+                            <li><a href="https://soulcodeacademy.org/curso-python-google-cloud.html"
+                                    target="_blank">Google Clound</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://soulcodeacademy.org/sobre.html">SOBRE</a></li>
+                    <li><a href="https://soulcodeacademy.org/contato.html">CONTATO</a></li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr height="60">
+            <td colspan="2" bgcolor="gold">Todos os direitos reservados a Soul Code </td>
+        </tr>
+    </table>
+</body>
+
+</html>
